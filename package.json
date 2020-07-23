@@ -29,8 +29,5 @@
     "semi": false,
     "arrowParens": "avoid",
     "singleQuote": true
-  },
-  "dependencies": {
-    "dset": "^2.0.1"
   }
 }

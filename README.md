@@ -47,6 +47,7 @@ Created by [@HenrikJoreteg](https://twitter.com/henrikjoreteg) for [anesthesiach
 
 ## Changelog
 
+- `1.0.1` - removed accidental inclusion of unused dependency
 - `1.0.0` - initial release
 
 ## License
