@@ -1,6 +1,6 @@
 {
   "name": "hl7-date",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Parse and stringify HL7 Dates to JavaScript Date objects",
   "source": "src/hl7-date.js",
   "main": "dist/hl7-date.js",
