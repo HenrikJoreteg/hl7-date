@@ -1,0 +1,36 @@
+{
+  "name": "hl7-date",
+  "version": "0.0.0",
+  "description": "Parse and stringify HL7 Dates to JavaScript Date objects",
+  "source": "src/hl7-date.js",
+  "main": "dist/hl7-date.js",
+  "module": "dist/hl7-date.module.js",
+  "unpkg": "dist/hl7-date.umd.js",
+  "scripts": {
+    "prepublish": "npm run build && npm test",
+    "test": "tape -r esm test | tap-spec",
+    "build": "rm -rf dist && microbundle",
+    "dev": "microbundle watch"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "Henrik Joreteg <henrik@joreteg.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "glob": "^7.1.6",
+    "microbundle": "^0.12.3",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.0.1"
+  },
+  "prettier": {
+    "semi": false,
+    "arrowParens": "avoid",
+    "singleQuote": true
+  },
+  "dependencies": {
+    "dset": "^2.0.1"
+  }
+}
